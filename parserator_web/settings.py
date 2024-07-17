@@ -74,7 +74,7 @@ LOGGING = {
             }
         },
     }
-
+    
 ROOT_URLCONF = 'parserator_web.urls'
 
 TEMPLATES = [

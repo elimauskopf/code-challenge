@@ -29,17 +29,21 @@
               <th>Tag</th>
             </tr>
           </thead>
-          <tbody>
+          <tbody id="address-Table">
           </tbody>
         </table>
       </div>
+      <div id="error" style="display:none">
+      </div>
+      
     </div>
   </div>
 </div>
 {% endblock %}
 
 {% block extra_js %}
-  <script src="{% static 'js/index.js' %}">
+  <script src="{% static 'js/index.js' %}"
+  >
 
     
     
