@@ -1,5 +1,20 @@
 # DataMade Code Challenge: Parserator
 
+
+#Notes from Eli
+- The setup instructions should be the same I didn't add new dependecies
+- I am currently using windows so I had to change docker-entrypoint.sh and run-tests.sh from clrf→ LF b/c the file wasn't being found 
+- I also changed the nodesource link in the dockerfile to RUN curl -sL https://deb.nodesource.com/setup_lts.x | bash - ,  because npm wasnt being installed and the dockerfile script would fail
+
+
+#Things I would change if I had more time
+- Better error handling on the frontend
+- cleaner way to add data to table through js
+- conditional rendering w django instead of css styles
+- more tests 
+
+
+
 Welcome to the DataMade code challenge! 👋
 
 Your task is to recreate the **address parsing form** in DataMade's
