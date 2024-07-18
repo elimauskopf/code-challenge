@@ -15,7 +15,7 @@ class AddressParse(APIView):
 
     def get(self, request):
         try:
-            address = request.query_params.get('address', 'default')
+            address = request.query_params.get('address')
             if (len(address) > 0):
                 address_components, address_type = self.parse(address)
 
